@@ -1,0 +1,126 @@
+*,*::before,*::after {
+   box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+   font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+   max-width: 100%;
+}
+
+.container {
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+/**********************************
+HEADER
+**********************************/
+
+header {
+   padding:0;
+   margin:0;
+}
+
+header a, header a:visited {
+   text-decoration: none;
+}
+
+header a h1 {
+   font-size: 2em;
+   padding: 20px 20px 0;
+   margin: 0;
+   color: #333;
+   font-weight: 500;
+   letter-spacing: -.06em;
+}
+
+header a h2 {
+   font-size: 1.2em;
+   padding:0 20px 20px;
+   margin:0;
+   color: #888;
+   font-weight: normal;
+}
+
+
+/**********************************
+NAVTOP
+**********************************/
+
+header nav {
+   background-color: #282828;
+   padding: 0;
+}
+
+#top-nav {
+   list-style:none;
+   padding:0;
+}
+
+#top-nav li {
+   display: inline;
+   margin: 0;
+}
+
+#top-nav li a, #top-nav li a:visited {
+   display: inline-block;
+   padding: 20px 20px;
+   color: #FF5F00;
+   font-weight: 500;
+}
+
+#top-nav li a:hover {
+   color: #fff;
+}
+
+/**********************************
+CONTENT
+**********************************/
+
+#content h2 {
+   margin: 20px 0 0 0;
+   padding-bottom: 10px;
+   color: #FF5F00;
+}
+
+#content {
+   padding: 2.5%;
+}
+
+#content p {
+   padding: 0;
+   margin: 0;
+}
+
+/**********************************
+GALLERY
+**********************************/
+
+#gallery {
+   list-style: none;
+   margin:0;
+   padding:0;
+   clear: left;
+}
+
+#gallery a li {
+   display: block;
+   list-style:none;
+   margin:0;
+   padding:0;
+   max-width: 45%;
+   margin: 2.5%;
+   float: left;
+}
+
+#gallery a li img {
+   border-radius: 10px;
+}
+
+
+footer {
+   clear: both;
+}
